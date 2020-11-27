@@ -1,0 +1,126 @@
+main {
+    margin-top: 100px;
+    margin-left:2em;
+ }
+ 
+ nav.top-nav{
+    background-color: #2288aa;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    box-shadow: 0px, 4px, 4px, #0003;
+    padding-left: 2em;
+ 
+ }
+ 
+ nav.top-nav ul {
+    list-style: none;
+    padding:0;
+ }
+ 
+ #myName{
+    left: 15%;
+    font-size: x-large;
+ }
+
+ nav.top-nav li {
+    left: 37%;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fffd;
+    margin: 5px;
+    display: inline-block;
+    padding:5px;
+    user-select: none;
+    position: relative;
+    
+ }
+ 
+ nav.top-nav li a:hover {
+    text-decoration: underline;
+    color: #fff;
+ }
+ 
+ nav.top-nav li a:active {
+    color: #fff;
+ }
+ 
+ nav.top-nav li a:visited {
+     color: #fff;
+ }
+ 
+.myPhoto {
+    padding-top: 80px;
+    padding-left: 120px;
+}
+
+#photo{
+    /* width: 120%; */
+}
+
+.intro {
+    padding-bottom: 125px;
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.Title{
+    padding-top: 5%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.work1{
+    margin:auto;
+    border: 2px solid white;
+    width:55%;
+    background-color: azure;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.projects_item{
+    border: 2px solid black;
+    margin:auto;
+    margin-bottom: 50px;
+}
+
+.projects_text{
+    font-size: 20px;
+    text-align: center;
+}
+
+.img-fluid{
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+.project-link{
+    color: black;
+}
+
+.contacts{
+    margin-left:30%;
+    margin-bottom: 200px;
+}
+
+.email1{
+    display: inline;
+ 
+}
+
+.email2{
+    display: inline;
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+
+.linkedin{
+    width: 3%;
+    margin-top: 30px;   
+    font-size: 33px;
+}

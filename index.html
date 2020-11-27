@@ -8,104 +8,58 @@
 	<link rel="icon" href="img/favicon.png" type="image/png">
 	<title>Yuchao Wang</title>
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="vendors/linericon/style.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-	<link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
-	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
-	<link rel="stylesheet" href="vendors/animate-css/animate.css">
-	<link rel="stylesheet" href="vendors/flaticon/flaticon.css">
-	<!-- main css -->
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 
 <body>
-
-	<!--================Header Menu Area =================-->
-	<header class="header_area">
-		<div class="main_menu" id="mainNav">
-			<nav class="navbar navbar-expand-lg navbar-light">
-				<div class="container box_1620">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.JPG" alt=""></a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse"
-						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-						aria-expanded="false" aria-label="Toggle navigation">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-						<ul class="nav navbar-nav menu_nav ml-auto">
-							<li class="nav-item"><a class="nav-link" href="https://drive.google.com/file/d/1Q0af0kLSh2TRTkb4wgvu74uEAK1gk91g/view?usp=sharing">Resume</a></li>
-							<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
-							<li class="nav-item"><a class="nav-link" href="#aboutme">About</a></li>
-							<li class="nav-item"><a class="nav-link" href="#project">Projects</a>
-							<!-- <li class="nav-item submenu dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
-									aria-haspopup="true" aria-expanded="false">Pages</a>
-								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-									<li class="nav-item"><a class="nav-link" href="portfolio-details.html">Project
-											Details</a></li>
-									<li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
-								</ul>
-							</li> -->
-
-							
-						</ul>
-					</div>
-				</div>
-			</nav>
-		</div>
-	</header>
+	<nav class="top-nav">
+		<ul >
+			<li id="myName"> YUCHAO'S WEBSITE</li>
+			<li><a href="#Bio">Biography</a></li>
+			
+			<li><a href="https://drive.google.com/file/d/1Q0af0kLSh2TRTkb4wgvu74uEAK1gk91g/view?usp=sharing">Resume</a></li>
+			<li><a href="#WorkExperience">Work Experience</a></li>
+			<li><a href="#Projects">Projects</a>
+			<li><a href="#Contact">Contact</a></li>
+		</ul>
+	 </nav>
 	<!--================Header Menu Area =================-->
 
 	<!--================Home Banner Area =================-->
-	<section class="home_banner_area">
-		<div class="banner_inner">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-6">
-						<div class="home_left_img">
-							<img src="img/banner/man.jpg" alt="">
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="banner_content">
-							<h5>This is me</h5>
-							<h2>Yuchao Wang</h2>
-							<p style="color:royalblue;font-size:120%;">LIFE IS SHORT. STOP AND SMELL ROSES ALONG THE WAY</p>
-							<a class="banner_btn" href="https://drive.google.com/file/d/1Q0af0kLSh2TRTkb4wgvu74uEAK1gk91g/view?usp=sharing">RESUME</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+
+	<div id="Bio">
+		<table>
+			<tr>
+				<td class="myPhoto">
+					<img id="photo" src="img/banner/man.jpg" alt="">
+				</td>
+				<td class="intro">
+					<h1>Biography</h1>
+					<p style="color:blueviolet;font-size:120%;">Yuchao is a Masters of CS student at Northwestern University. He has compelted the bachelor's degree in
+						Computer Engineering from University of Pittsburgh. He is actively looking for exciting Software Engineer full-time position
+						</p>
+					<p style="color:blueviolet;font-size:120%;">Yuchao is very self-motived and strongly aspire to learn new technologies. He really likes to spend
+						time building web and
+						mobile app. As Yuchao said, "I like to solve problems and conquer challenges in front of me". </p>
+					
+					<p style="color:royalblue;font-size:120%;">LIFE IS SHORT. STOP AND SMELL ROSES ALONG THE WAY</p>
+					<a class="banner_btn" href="https://drive.google.com/file/d/1Q0af0kLSh2TRTkb4wgvu74uEAK1gk91g/view?usp=sharing">RESUME</a>
+						
+				</td>
+			</tr>
+			
+		</table>
+		
+	</div>
 	<!--================End Home Banner Area =================-->
 
 	<!--================Welcome Area =================-->
-	<section class="welcome_area p_120" id="aboutme">
+	<!-- <section class="welcome_area p_120" id="aboutme">
 		<div class="container">
 			<div class="row welcome_inner">
-				<div class="col-lg-6">
-					<div class="welcome_text">
-						<h4>About Myself</h4>
-						<p style="color:blueviolet;font-size:120%;">Hey, I am a Masters of CS student at Northwestern University. I have done my undergraduate in
-							Computer Engineering from University of Pittsburgh. I am currently looking for exciting SDE
-							summer intern roles
-							2020.</p>
-						<p style="color:blueviolet;font-size:120%;">I am very self-motived and strongly aspire to learn new technologies. I really like to spend
-							time building web and
-							mobile app, because I like to solve problems and conquer challenges in front of me. </p>
-						<p style="color:blueviolet;font-size:120%;">If you are interested in my profile, feel free to email me. </p>
-					</div>
-				</div>
+				
 				<div class="col-lg-6">
 					<div class="tools_expert">
 						<h3>Tools Expertness</h3>
@@ -150,218 +104,108 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!--================End Welcome Area =================-->
 
-	<!--================Projects Area =================-->
-	<section class="projects_area p_120" id="project">
-		<div class="container">
-			<div class="main_title">
-				<h2>Accomplishment</h2>
-				<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p> -->
+	<!-- ==================Work Experience-====================== -->
+	<section id="WorkExperience">
+		<!-- <p>haha</p> -->
+		<div >
+			<h1 class="Title">Work Experience</h1>
+			<div class="work1">
+				<h3>&diams; &nbsp; &nbsp;Android Developer Intern,&nbsp; HalloApp Inc,&nbsp; Palo Alto,&nbsp; CA</h3>
+				<h5>• Built an android social app named “HalloApp” in Java to provide a social space for family and close friends</h5>
+				<h5> • Cooperated with the server team to implement the “Resumable Upload” via S3 to resume media upload and improve
+					upload efficiency by 50 % on average in light of unreliable connection from the mobile device to the upload server
+				</h5>
+				<h5>• Increased message serialization efficiency around 10 times by migrating the messaging approach from using XMPP to
+					Protocol Buffers (Protobuf)
+				<h5>• Implemented features such as one-one-one message replies and blocking a user from chat</h5>
+				<h5>• Developed new UI features such as copying text from chat messages and tapping for larger media thumbnail</h5>
 			</div>
-			<div class="projects_fillter">
-				<!-- <ul class="filter list" > -->
-					<!-- <li class="active" data-filter="*"><a href="#">All</a></li> -->
-					<!-- <li data-filter=".work"><a href="#">Work Experience</a></li> -->
-					<!-- <li data-filter=".web"><a href="#">Mobile/Web App </a></li>
-					<li data-filter=".ml"><a href="#">Machine Learning & AI</a></li> -->
-					<!-- <li data-filter=".rob"><a href="#">Robotics</a></li>
-					<li data-filter=".rob"><a href="#">Distributed System</a></li> -->
-				<!-- </ul> -->
+			<div class="work1">
+				<h3>&diams; &nbsp; &nbsp;Software Engineer In Test,&nbsp;Co-Op,&nbsp; ANSYS Inc,&nbsp; Canonsburg,&nbsp; PA</h3>
+				<h5>• Developed automated tests for features of ANSYS core software product in Python and JavaScript on Linux and
+					Windows and collaborated with developers to fix defects to ensure tests passing rate was at least 95%</h5>
+				<h5>• Improved web application for automated testing in C# with ASP.NET by fixing defects to enhance the user experience
+				</h5>
+				<h5>• Managed test suites in which software features are tested with multiple CPU cores by using High-Performance
+					Computing (HPC) to ensure the test suites passing rate was at least 95%
 			</div>
-			<div class="projects_inner row">
-				<div class="col-lg-4 col-sm-6 web">
-					<a href="https://github.com/yuw72/classroom-interaction-android-app">
-						<div class="projects_item">
-							<img class="img-fluid" src="img/projects/mobile-app.jpg" alt="">	
-							<div class="projects_text">
-								<!-- <a href="portfolio-details.html"> -->
-									<h4>Android Mobile App</h4>
-								<!-- </a> -->
-								<p>Personal Project</p>
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-lg-4 col-sm-6 web">
-					<a href="https://github.com/yuw72/Web-application">
-						<div class="projects_item">
-							<img class="img-fluid" src="img/projects/web-app.png" alt="">
-							<div class="projects_text">
-								<!-- <a href="portfolio-details.html"> -->
-									<h4>Web Application</h4>
-								<!-- </a> -->
-								<p>Client Project</p>
-							</div>
-						</div>
-					</a>
-				</div>
+			
 
-				
-				<div class="col-lg-4 col-sm-6 rob">
-					<a href="https://github.com/violasox/ECESeniorDesign">
-						<div class="projects_item">	
-								<img class="img-fluid" src="img/projects/robotics.jpg" alt="">
-								<div class="projects_text">
-									<!-- <a href="portfolio-details.html"> -->
-										<h4>Self-Charging Robot</h4>
-									<!-- </a> -->
-									<p>Senior Design Project</p>
-								</div>	
-						</div>
-					</a>
-				</div>
-				
-				
-			</div>
+
+		</div>
+		<div>
+			
 		</div>
 	</section>
-	<!--================End Projects Area =================-->
 
-	<!--================Testimonials Area =================-->
-	<!-- <section class="testimonials_area p_120">
-		<div class="container">
-			<div class="main_title">
-				<h2>Testimonials</h2>
-				<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in
-					price. You may see some for as low as $.17 each.</p>
-			</div>
-			<div class="testi_inner">
-				<div class="testi_slider owl-carousel">
-					<div class="item">
-						<div class="testi_item">
-							<p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth.
-								If you think about it, you travel across her face</p>
-							<h4>Fanny Spencer</h4>
-							<a href="#"><i class="fa fa-star"></i></a>
-							<a href="#"><i class="fa fa-star"></i></a>
-							<a href="#"><i class="fa fa-star"></i></a>
-							<a href="#"><i class="fa fa-star"></i></a>
-							<a href="#"><i class="fa fa-star-half-o"></i></a>
+	<!--================Projects Area =================-->
+	<section id="Projects">
+			<h1 class="Title">Accomplishment</h1>
+
+			<table>
+				<tr>
+					<td>
+					
+						<div class="projects_item">
+							<a class="project-link" href="https://github.com/yuw72/classroom-interaction-android-app">
+							<img class="img-fluid" src="img/projects/mobile-app.jpg" alt="">	
+							<div >
+								<h4 class="projects_text">Android Mobile App (Personal Project)</h4>
+							
+							</div>
+						</a>
 						</div>
-					</div>
-					<div class="item">
-						<div class="testi_item">
-							<p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth.
-								If you think about it, you travel across her face</p>
-							<h4>Fanny Spencer</h4>
-							<a href="#"><i class="fa fa-star"></i></a>
-							<a href="#"><i class="fa fa-star"></i></a>
-							<a href="#"><i class="fa fa-star"></i></a>
-							<a href="#"><i class="fa fa-star"></i></a>
-							<a href="#"><i class="fa fa-star-half-o"></i></a>
-						</div>
-					</div>
-					<div class="item">
-						<div class="testi_item">
-							<p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth.
-								If you think about it, you travel across her face</p>
-							<h4>Fanny Spencer</h4>
-							<a href="#"><i class="fa fa-star"></i></a>
-							<a href="#"><i class="fa fa-star"></i></a>
-							<a href="#"><i class="fa fa-star"></i></a>
-							<a href="#"><i class="fa fa-star"></i></a>
-							<a href="#"><i class="fa fa-star-half-o"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
+						
+					</td>
+					
+					<td>
+						<a class="project-link" href="https://github.com/violasox/ECESeniorDesign">
+							<div class="projects_item">	
+									<img class="img-fluid" src="img/projects/robotics.jpg" alt="">
+									<div>
+						
+										<h4 class="projects_text">Self-Charging Robot (Senior Design Projec)</h4>
+							
+									</div>	
+							</div>
+						</a>
+					</td>
+					<td>
+						<a class="project-link" href="https://github.com/yuw72/Web-application">
+							<div class="projects_item">
+								<img class="img-fluid" src="img/projects/web-app.png" alt="">
+								<div>
+									<h4 class="projects_text">Web Application (Course Project)</h4>
+								</div>
+							</div>
+						</a>
+					</td>
+				</tr>
+			</table>
 		</div>
-	</section> -->
-	<!--================End Testimonials Area =================-->
+	</section>
+	
 
-	<!--================Latest Blog Area =================-->
-	<!-- <section class="latest_blog_area p_120">
-		<div class="container">
-			<div class="main_title">
-				<h2>Latest Posts from Blog</h2>
-				<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in
-					price. You may see some for as low as $.17 each.</p>
-			</div>
-			<div class="row latest_blog_inner">
-				<div class="col-lg-4">
-					<div class="l_blog_item">
-						<div class="l_blog_img">
-							<img class="img-fluid" src="img/blog/home-blog/home-blog-1.jpg" alt="">
-						</div>
-						<div class="l_blog_text">
-							<div class="date">
-								<a href="#">25 October, 2017 | By Mark Wiens</a>
-							</div>
-							<a href="#">
-								<h4>Addiction When Gambling Becomes A Problem</h4>
-							</a>
-							<p>Computers have become ubiquitous in almost every facet of our lives. At work, desk
-								jockeys spend hours in front of their desktops, while delivery people scan bar codes
-								with handhelds and workers in the field stay</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4">
-					<div class="l_blog_item">
-						<div class="l_blog_img">
-							<img class="img-fluid" src="img/blog/home-blog/home-blog-2.jpg" alt="">
-						</div>
-						<div class="l_blog_text">
-							<div class="date">
-								<a href="#">25 October, 2017 | By Mark Wiens</a>
-							</div>
-							<a href="#">
-								<h4>Make Myspace Your Best Designed Space</h4>
-							</a>
-							<p>Computers have become ubiquitous in almost every facet of our lives. At work, desk
-								jockeys spend hours in front of their desktops, while delivery people scan bar codes
-								with handhelds and workers in the field stay</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4">
-					<div class="l_blog_item">
-						<div class="l_blog_img">
-							<img class="img-fluid" src="img/blog/home-blog/home-blog-3.jpg" alt="">
-						</div>
-						<div class="l_blog_text">
-							<div class="date">
-								<a href="#">25 October, 2017 | By Mark Wiens</a>
-							</div>
-							<a href="#">
-								<h4>Video Games Playing With Imagination</h4>
-							</a>
-							<p>Computers have become ubiquitous in almost every facet of our lives. At work, desk
-								jockeys spend hours in front of their desktops, while delivery people scan bar codes
-								with handhelds and workers in the field stay</p>
-						</div>
-					</div>
+	 <!-- ===================================contact============================> -->
+	
+	 <section id="Contact">
+		 <div>
+			 <h1 class="Title">Contact</h1>
+			 <div class="contacts">
+				<p class="email1"><i class="material-icons">attach_email</i></p>
+				<p class="email2">&nbsp;doublewangyuchao@gmail.com</p>
+				<div>
+				<img class="linkedin" src="img/logo/linkedin.webp" alt="">
+				<a class="linkedin" href="https://www.linkedin.com/in/yuchao-wang-45526a166/">&nbsp;Linkedin</a>
 				</div>
 			</div>
-		</div>
-	</section> -->
-	<!--================End Latest Blog Area =================-->
+			
+		 </div>
+	 </section>
 
-
-
-
-
-	<!-- Optional JavaScript -->
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/popper.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/stellar.js"></script>
-	<script src="vendors/lightbox/simpleLightbox.min.js"></script>
-	<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
-	<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
-	<script src="vendors/isotope/isotope-min.js"></script>
-	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-	<script src="js/jquery.ajaxchimp.min.js"></script>
-	<script src="vendors/counter-up/jquery.waypoints.min.js"></script>
-	<script src="vendors/counter-up/jquery.counterup.min.js"></script>
-	<script src="js/mail-script.js"></script>
-	<!--gmaps Js-->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
-	<script src="js/gmaps.min.js"></script>
-	<script src="js/theme.js"></script>
 </body>
 
 </html>
