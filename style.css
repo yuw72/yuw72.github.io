@@ -36,7 +36,9 @@ main {
     position: relative;
     
  }
- 
+ nav.top-nav li a{
+     color: #fff
+ }
  nav.top-nav li a:hover {
     text-decoration: underline;
     color: #fff;
