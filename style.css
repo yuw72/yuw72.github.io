@@ -19,9 +19,18 @@ main {
     padding:0;
  }
  
+ @keyframes flashing {
+    from {opacity: 0.0;}
+    to {opacity: 1.0;}
+ }
+ 
  #myName{
     left: 15%;
     font-size: x-large;
+    animation-name: flashing;
+    animation-direction: alternate;
+    animation-duration: 3s;
+    animation-iteration-count: unset;
  }
 
  nav.top-nav li {
