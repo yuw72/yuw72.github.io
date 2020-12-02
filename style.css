@@ -3,6 +3,16 @@ main {
     margin-left:2em;
  }
  
+.bio-text1{
+    font-size: 25;
+    color: blueviolet;
+}
+
+.bio-text2{
+    font-size: 25;
+    color: blue;
+}
+
  nav.top-nav{
     background-color: #2288aa;
     position: fixed;
